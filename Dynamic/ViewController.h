@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
+-(IBAction)tryAnimation:(id)sender;
 @end
 

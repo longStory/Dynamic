@@ -8,7 +8,9 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    NSMutableData *_data;
+}
 
 @end
 
@@ -17,9 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _data = [[NSMutableData alloc]init];
+    //
+    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:@"/patch.js"]];
+    
+    _data = [[NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil] mutableCopy];
+    
+    NSString*filePath=[[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)objectAtIndex:0]stringByAppendingPathComponent:@"patch.js"];
+    
+    NSFileManager *manager = [NSFileManager defaultManager];
+    if ([manager fileExistsAtPath:filePath]) {
+        [manager removeItemAtPath:filePath error:nil];
+    }
+    [_data writeToFile:filePath atomically:YES];
+    
     return YES;
 }
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

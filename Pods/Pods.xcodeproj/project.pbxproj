@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BFE35DF000228C62954B34 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD38E092216E6D44AA7922E4 /* POPAnimator.mm */; };
+		03BC26D44AA82BC402944A7C /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B2F6EDCAB4A56743931BE1 /* POPAnimator.h */; };
+		04997342D5E6B63F04CE059E /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEBE8A8A33DBBC93BDC3BF4 /* POPDecayAnimationInternal.h */; };
+		049C1F9C6E461E83C878DCAB /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCD89C30C49896F34B149B1 /* POPPropertyAnimation.h */; };
+		06D922FB226DB49DEA82F38E /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1272A53A90E6A24705687034 /* POPAnimationEvent.h */; };
+		11F52CF79EDF8B9A83114600 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = B530D32DF05F424168298606 /* POPAnimationTracer.h */; };
+		11F902D89C45D7C1FB2C2289 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 715117EBF0334FAFF40CFDD0 /* POPCustomAnimation.h */; };
+		186CBEA1C687558F7B6F7C95 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA4B61FDE5B946080FBC0872 /* TransformationMatrix.cpp */; };
+		1876B989C642222F5257FCF2 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E3548F991F405E4FFE89FA0 /* JavaScriptCore.framework */; };
+		21E0AA8686CDE8B20069DDF3 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0A43A7AEE8746B34EB30F9 /* UnitBezier.h */; };
+		28FC5E649AF0570FBC3895CA /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1519901D0C0B2D339F583260 /* POPAction.h */; };
+		320A9A5D159E3C485BEA5ABD /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B526EA4B88188A593912606 /* POPAnimationTracer.mm */; };
+		32638EAA1656FE83CF298196 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC827E1A718F5026B8FEE58F /* POPAnimation.mm */; };
+		3790101BB0636D82CAD8D97A /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD0C6538157A18226BCAB313 /* POPGeometry.mm */; };
+		479E0CF007F754F7E93C79AD /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 606EBF185684994EEB4CE4B4 /* POPVector.mm */; };
+		4D05C07ED1584E747B4BA3A4 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0986F508D08D4F1080938C /* POPAnimatableProperty.h */; };
+		56AEE98D4404726A2A651288 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = F73736A04DF44EADA02AC76B /* TransformationMatrix.h */; };
+		5B64C315F0331DCE3AEF5DFA /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBAFA85C81C9739835605B3 /* FloatConversion.h */; };
+		5B93BF116390638C6B1B1EBD /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6D07F846C199ADA7C4EF391F /* POPPropertyAnimation.mm */; };
+		6248165426BC79A9C4A199C6 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBE004CEAAC254D0BE5B1E6 /* POPSpringAnimationInternal.h */; };
+		707C24553A164D7E69FA0EA4 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC293487BE428D66A1C2710B /* Pods-dummy.m */; };
+		74EF3CF6CAF6D041C1A47F64 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EDEFC87CC36E5FE7CB377D /* POPDefines.h */; };
+		75B2903915992D0C4FA2F34B /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A6054A1B3675A53D33877D /* POPAnimationEventInternal.h */; };
+		7F5D6051627828B6DEF9E245 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3D19AAC908BF437EC38444B7 /* POPCustomAnimation.mm */; };
+		81EF0A6A142EF8D3BD79AC05 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6C6248D6E76A41B89EB6A8F /* POPLayerExtras.mm */; };
+		9894B2FFA1E0D505D91F4C51 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 879A82A9B3657861A6517D83 /* POPAnimationExtras.mm */; };
+		9F185B3C6F32E2F4890F4DBD /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = FE205422D20C02AA7DC90412 /* POPAnimationExtras.h */; };
+		9F1A8442466CD019C260C31C /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 02652274044964CE1D3FABAA /* POPAnimationInternal.h */; };
+		A3BB4E091DF811787B846550 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9173D2E9AAE8346EC1C60007 /* POPSpringSolver.h */; };
+		ABAD48D14D2F28F1E562DBF8 /* Pods-JSPatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 936616099D4FF086AC53720D /* Pods-JSPatch-dummy.m */; };
+		AC8661C112DDFAF1576DDBC0 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E8CB7E49090EB9967229ABD /* POPVector.h */; };
+		B2F248E36080C1DDD7DAAA4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B669FE2C3D4B772A98B02 /* Foundation.framework */; };
+		B8232FA3A434A1DCEE7B73A3 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFE6FF3CE27CC2A9BEDF9CD /* POPMath.h */; };
+		B936C59DCB9E1A781DAB596D /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13AA08A83398B1807C625B7E /* POPSpringAnimation.mm */; };
+		C00C9533B3F861885C142EA1 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA12090DB9D675F2D686206 /* POPBasicAnimationInternal.h */; };
+		C5ADCCD55DA1EA36426E81AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B669FE2C3D4B772A98B02 /* Foundation.framework */; };
+		C619CA2AF3399475516648CC /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5B07B6BC34BC951DB81134 /* POPDecayAnimation.h */; };
+		C99B18675FA40D0D8C3D7BCA /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55DE19E1392786214E450E63 /* POPDecayAnimation.mm */; };
+		CC6595B8F60FBD71C3E95597 /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B00793A670D8804D423855F /* POPAnimationRuntime.h */; };
+		D2C46FAD38A2343B0BE6E885 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = BB39B4323BBDC342C819F197 /* POPGeometry.h */; };
+		D3F97DB35A1BFCE3AED3EFD9 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 51547B3BBFD6DFD8A7B4A35D /* POPBasicAnimation.h */; };
+		D6C939EB9C6C18A557110314 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BBD70F888FA4BF5452A6120 /* POPSpringAnimation.h */; };
+		D9AE2B77C4C53BE499EEAFF4 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 134F35BB9295912D01F3C374 /* POPLayerExtras.h */; };
+		DABDE1F1135F11A4CB4FA35F /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A941ED0CF102B6C566C50C6 /* POPAnimationTracerInternal.h */; };
+		DD54E16E2D67E7E78A11B90F /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5614DD022F246959C69453A8 /* POPBasicAnimation.mm */; };
+		DE39E11035F57FACF6915893 /* JPEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6196182FA3A056D6CD831D /* JPEngine.h */; };
+		E837F511FB31DFAE26779492 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9142733C525AA834ABEA1D90 /* POPCGUtils.mm */; };
+		E912FAECEFD1767AC830BA17 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3421749D9AE8832A2F4C37 /* POPAnimationPrivate.h */; };
+		EA9ECA9EE71E5BA88405F6BA /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8637D3B7209B385EFAF4B830 /* POPMath.mm */; };
+		EF964621AAA29774AFDD45DD /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0010333AE6AFD134FBC7F3 /* POPCGUtils.h */; };
+		F0B3DE1A14C462E793FC6FD1 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09E3FE875DEA092F63A6A08B /* POPAnimationRuntime.mm */; };
+		F3C0183E669DFA31508FBF4A /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC06AFB2FF78D9A602550DF /* POPAnimatorPrivate.h */; };
+		F3D78F4C39A86C5EFD02B4CD /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 511178234990526111967357 /* POPAnimatableProperty.mm */; };
+		F409E0CA69C720D46AA7DBD4 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F755B538385D2D14F7CE74 /* POPPropertyAnimationInternal.h */; };
+		F8D8692B6B8409B42EB360EA /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6AFC32510768D0D5C90C87B5 /* POPAnimationEvent.mm */; };
+		FA3F87A0420166D98D19B49C /* Pods-pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D18FE7D75B7B66EAB3B57AE1 /* Pods-pop-dummy.m */; };
+		FA419EF6F41C302C28AE3AC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B669FE2C3D4B772A98B02 /* Foundation.framework */; };
+		FAC729808F101F04734A2496 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = D3308349F3A32CE26E4E9CE6 /* POP.h */; };
+		FBFE65B8FCB093E0F384A06B /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EEF660AAFF1DA7CD5BBE43 /* JPEngine.m */; };
+		FE874E568F8E1FC31A3CD6C4 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B7019BFAB4FAD0BBE7AEDF8B /* POPAnimation.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77BC214EACEEB2ECE8BFF7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D2BE99C1E6E33AA86DCFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4BE22347A4C0C3FBC131C0;
+			remoteInfo = "Pods-JSPatch";
+		};
+		A4B40543791361C1082CF21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D2BE99C1E6E33AA86DCFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54683936429FA5490151AD66;
+			remoteInfo = "Pods-pop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02652274044964CE1D3FABAA /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		03A36CCA9A29F4F39200E77F /* JSPatch.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = JSPatch.js; path = JSPatch/JSPatch.js; sourceTree = "<group>"; };
+		09E3FE875DEA092F63A6A08B /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		0A5B07B6BC34BC951DB81134 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		0CBAFA85C81C9739835605B3 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		0CBE004CEAAC254D0BE5B1E6 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		0E0010333AE6AFD134FBC7F3 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		1272A53A90E6A24705687034 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		134F35BB9295912D01F3C374 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		13AA08A83398B1807C625B7E /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		1519901D0C0B2D339F583260 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		1B526EA4B88188A593912606 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		27D03F9DBDF3DA94A8B0E4DC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2B00793A670D8804D423855F /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		2BA12090DB9D675F2D686206 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		3C0B669FE2C3D4B772A98B02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D19AAC908BF437EC38444B7 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		3E5255E2DD897DD85F0232CD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B2F6EDCAB4A56743931BE1 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		44155A974BD010F132F3F292 /* libPods-JSPatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSPatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F650AD573570C1AFD62CDE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		511178234990526111967357 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		51547B3BBFD6DFD8A7B4A35D /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		55DE19E1392786214E450E63 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		5614DD022F246959C69453A8 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		5A941ED0CF102B6C566C50C6 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		5D385F6997A927D42C3F895C /* Pods-JSPatch-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPatch-Private.xcconfig"; sourceTree = "<group>"; };
+		5E2DC986BCBB6170E3653CB7 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		5E3548F991F405E4FFE89FA0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		606EBF185684994EEB4CE4B4 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		62FEF6A44DC296E64006EF89 /* Pods-JSPatch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPatch.xcconfig"; sourceTree = "<group>"; };
+		65A580D0F0D0F332AA5DE35F /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		6AFC32510768D0D5C90C87B5 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		6BBD70F888FA4BF5452A6120 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		6BC06AFB2FF78D9A602550DF /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		6BFE6FF3CE27CC2A9BEDF9CD /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		6C0A43A7AEE8746B34EB30F9 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		6D07F846C199ADA7C4EF391F /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		6E8CB7E49090EB9967229ABD /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		715117EBF0334FAFF40CFDD0 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		7DEBE8A8A33DBBC93BDC3BF4 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		84F755B538385D2D14F7CE74 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		8637D3B7209B385EFAF4B830 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		879A82A9B3657861A6517D83 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		88D5F06A2F9E9D26B25D0972 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9142733C525AA834ABEA1D90 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		915542D19E1D7E6BFB922514 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9173D2E9AAE8346EC1C60007 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		936616099D4FF086AC53720D /* Pods-JSPatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSPatch-dummy.m"; sourceTree = "<group>"; };
+		A8F3AF0EB06B48894513E405 /* Pods-pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-pop-prefix.pch"; sourceTree = "<group>"; };
+		AD0C6538157A18226BCAB313 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		B2EDEFC87CC36E5FE7CB377D /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		B530D32DF05F424168298606 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		B6C6248D6E76A41B89EB6A8F /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		B7019BFAB4FAD0BBE7AEDF8B /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		B7EEF660AAFF1DA7CD5BBE43 /* JPEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPEngine.m; path = JSPatch/JPEngine.m; sourceTree = "<group>"; };
+		BB39B4323BBDC342C819F197 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		BD38E092216E6D44AA7922E4 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		C8A6054A1B3675A53D33877D /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		CA4B61FDE5B946080FBC0872 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		CAC0CD9D513D304B9BC10D33 /* libPods-pop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18FE7D75B7B66EAB3B57AE1 /* Pods-pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pop-dummy.m"; sourceTree = "<group>"; };
+		D2AE5EF350EB039FA809AAED /* Pods-JSPatch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSPatch-prefix.pch"; sourceTree = "<group>"; };
+		D3308349F3A32CE26E4E9CE6 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		DC827E1A718F5026B8FEE58F /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		DF724D1F8F2E06C8664A723B /* Pods-pop-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pop-Private.xcconfig"; sourceTree = "<group>"; };
+		E8A4190251B45C8549778ACC /* Pods-pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pop.xcconfig"; sourceTree = "<group>"; };
+		E8C44AF4B4421D24D82E5924 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		EC6196182FA3A056D6CD831D /* JPEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPEngine.h; path = JSPatch/JPEngine.h; sourceTree = "<group>"; };
+		EDCD89C30C49896F34B149B1 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		F73736A04DF44EADA02AC76B /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		FA0986F508D08D4F1080938C /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		FC293487BE428D66A1C2710B /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		FE205422D20C02AA7DC90412 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		FF3421749D9AE8832A2F4C37 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D721663DA9081D781C7FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA419EF6F41C302C28AE3AC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD53AEF32778C9AE311199A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5ADCCD55DA1EA36426E81AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F330D782588CC2A6E7276D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F248E36080C1DDD7DAAA4E /* Foundation.framework in Frameworks */,
+				1876B989C642222F5257FCF2 /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		079140012BFE5BAF6FE09202 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DF8882F2BACE914D2E98F9C /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2433E0573A2D696A6CCC9D82 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				0CBAFA85C81C9739835605B3 /* FloatConversion.h */,
+				D3308349F3A32CE26E4E9CE6 /* POP.h */,
+				1519901D0C0B2D339F583260 /* POPAction.h */,
+				FA0986F508D08D4F1080938C /* POPAnimatableProperty.h */,
+				511178234990526111967357 /* POPAnimatableProperty.mm */,
+				B7019BFAB4FAD0BBE7AEDF8B /* POPAnimation.h */,
+				DC827E1A718F5026B8FEE58F /* POPAnimation.mm */,
+				1272A53A90E6A24705687034 /* POPAnimationEvent.h */,
+				6AFC32510768D0D5C90C87B5 /* POPAnimationEvent.mm */,
+				C8A6054A1B3675A53D33877D /* POPAnimationEventInternal.h */,
+				FE205422D20C02AA7DC90412 /* POPAnimationExtras.h */,
+				879A82A9B3657861A6517D83 /* POPAnimationExtras.mm */,
+				02652274044964CE1D3FABAA /* POPAnimationInternal.h */,
+				FF3421749D9AE8832A2F4C37 /* POPAnimationPrivate.h */,
+				2B00793A670D8804D423855F /* POPAnimationRuntime.h */,
+				09E3FE875DEA092F63A6A08B /* POPAnimationRuntime.mm */,
+				B530D32DF05F424168298606 /* POPAnimationTracer.h */,
+				1B526EA4B88188A593912606 /* POPAnimationTracer.mm */,
+				5A941ED0CF102B6C566C50C6 /* POPAnimationTracerInternal.h */,
+				41B2F6EDCAB4A56743931BE1 /* POPAnimator.h */,
+				BD38E092216E6D44AA7922E4 /* POPAnimator.mm */,
+				6BC06AFB2FF78D9A602550DF /* POPAnimatorPrivate.h */,
+				51547B3BBFD6DFD8A7B4A35D /* POPBasicAnimation.h */,
+				5614DD022F246959C69453A8 /* POPBasicAnimation.mm */,
+				2BA12090DB9D675F2D686206 /* POPBasicAnimationInternal.h */,
+				0E0010333AE6AFD134FBC7F3 /* POPCGUtils.h */,
+				9142733C525AA834ABEA1D90 /* POPCGUtils.mm */,
+				715117EBF0334FAFF40CFDD0 /* POPCustomAnimation.h */,
+				3D19AAC908BF437EC38444B7 /* POPCustomAnimation.mm */,
+				0A5B07B6BC34BC951DB81134 /* POPDecayAnimation.h */,
+				55DE19E1392786214E450E63 /* POPDecayAnimation.mm */,
+				7DEBE8A8A33DBBC93BDC3BF4 /* POPDecayAnimationInternal.h */,
+				B2EDEFC87CC36E5FE7CB377D /* POPDefines.h */,
+				BB39B4323BBDC342C819F197 /* POPGeometry.h */,
+				AD0C6538157A18226BCAB313 /* POPGeometry.mm */,
+				134F35BB9295912D01F3C374 /* POPLayerExtras.h */,
+				B6C6248D6E76A41B89EB6A8F /* POPLayerExtras.mm */,
+				6BFE6FF3CE27CC2A9BEDF9CD /* POPMath.h */,
+				8637D3B7209B385EFAF4B830 /* POPMath.mm */,
+				EDCD89C30C49896F34B149B1 /* POPPropertyAnimation.h */,
+				6D07F846C199ADA7C4EF391F /* POPPropertyAnimation.mm */,
+				84F755B538385D2D14F7CE74 /* POPPropertyAnimationInternal.h */,
+				6BBD70F888FA4BF5452A6120 /* POPSpringAnimation.h */,
+				13AA08A83398B1807C625B7E /* POPSpringAnimation.mm */,
+				0CBE004CEAAC254D0BE5B1E6 /* POPSpringAnimationInternal.h */,
+				9173D2E9AAE8346EC1C60007 /* POPSpringSolver.h */,
+				6E8CB7E49090EB9967229ABD /* POPVector.h */,
+				606EBF185684994EEB4CE4B4 /* POPVector.mm */,
+				CA4B61FDE5B946080FBC0872 /* TransformationMatrix.cpp */,
+				F73736A04DF44EADA02AC76B /* TransformationMatrix.h */,
+				6C0A43A7AEE8746B34EB30F9 /* UnitBezier.h */,
+				E7CF99D1BEA4DC130FB84143 /* Support Files */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		2C93A74BE2F22D1ED8821027 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B669FE2C3D4B772A98B02 /* Foundation.framework */,
+				5E3548F991F405E4FFE89FA0 /* JavaScriptCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		36580875808FC0133A8BF5B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C93A74BE2F22D1ED8821027 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		418EFD2EE8A12F41EA28F7EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03A36CCA9A29F4F39200E77F /* JSPatch.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51BBE6C735872D0BD7736A84 /* JSPatch */ = {
+			isa = PBXGroup;
+			children = (
+				EC6196182FA3A056D6CD831D /* JPEngine.h */,
+				B7EEF660AAFF1DA7CD5BBE43 /* JPEngine.m */,
+				418EFD2EE8A12F41EA28F7EA /* Resources */,
+				5466A28E062288504A6CB879 /* Support Files */,
+			);
+			path = JSPatch;
+			sourceTree = "<group>";
+		};
+		5466A28E062288504A6CB879 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62FEF6A44DC296E64006EF89 /* Pods-JSPatch.xcconfig */,
+				5D385F6997A927D42C3F895C /* Pods-JSPatch-Private.xcconfig */,
+				936616099D4FF086AC53720D /* Pods-JSPatch-dummy.m */,
+				D2AE5EF350EB039FA809AAED /* Pods-JSPatch-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JSPatch";
+			sourceTree = "<group>";
+		};
+		8DF8882F2BACE914D2E98F9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				915542D19E1D7E6BFB922514 /* Pods-acknowledgements.markdown */,
+				88D5F06A2F9E9D26B25D0972 /* Pods-acknowledgements.plist */,
+				FC293487BE428D66A1C2710B /* Pods-dummy.m */,
+				5E2DC986BCBB6170E3653CB7 /* Pods-environment.h */,
+				65A580D0F0D0F332AA5DE35F /* Pods-resources.sh */,
+				50F650AD573570C1AFD62CDE /* Pods.debug.xcconfig */,
+				E8C44AF4B4421D24D82E5924 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D676ADDA9856F09FF39B0FDC = {
+			isa = PBXGroup;
+			children = (
+				27D03F9DBDF3DA94A8B0E4DC /* Podfile */,
+				36580875808FC0133A8BF5B2 /* Frameworks */,
+				FE4C7A0A3D0B384C53ED5D8B /* Pods */,
+				FFF8E19ED0762F080E30E531 /* Products */,
+				079140012BFE5BAF6FE09202 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E7CF99D1BEA4DC130FB84143 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8A4190251B45C8549778ACC /* Pods-pop.xcconfig */,
+				DF724D1F8F2E06C8664A723B /* Pods-pop-Private.xcconfig */,
+				D18FE7D75B7B66EAB3B57AE1 /* Pods-pop-dummy.m */,
+				A8F3AF0EB06B48894513E405 /* Pods-pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-pop";
+			sourceTree = "<group>";
+		};
+		FE4C7A0A3D0B384C53ED5D8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51BBE6C735872D0BD7736A84 /* JSPatch */,
+				2433E0573A2D696A6CCC9D82 /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFF8E19ED0762F080E30E531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E5255E2DD897DD85F0232CD /* libPods.a */,
+				44155A974BD010F132F3F292 /* libPods-JSPatch.a */,
+				CAC0CD9D513D304B9BC10D33 /* libPods-pop.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04F11DCABC3083E78F738D8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE39E11035F57FACF6915893 /* JPEngine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6646C1839F242D69710A49F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64C315F0331DCE3AEF5DFA /* FloatConversion.h in Headers */,
+				FAC729808F101F04734A2496 /* POP.h in Headers */,
+				28FC5E649AF0570FBC3895CA /* POPAction.h in Headers */,
+				4D05C07ED1584E747B4BA3A4 /* POPAnimatableProperty.h in Headers */,
+				FE874E568F8E1FC31A3CD6C4 /* POPAnimation.h in Headers */,
+				06D922FB226DB49DEA82F38E /* POPAnimationEvent.h in Headers */,
+				75B2903915992D0C4FA2F34B /* POPAnimationEventInternal.h in Headers */,
+				9F185B3C6F32E2F4890F4DBD /* POPAnimationExtras.h in Headers */,
+				9F1A8442466CD019C260C31C /* POPAnimationInternal.h in Headers */,
+				E912FAECEFD1767AC830BA17 /* POPAnimationPrivate.h in Headers */,
+				CC6595B8F60FBD71C3E95597 /* POPAnimationRuntime.h in Headers */,
+				11F52CF79EDF8B9A83114600 /* POPAnimationTracer.h in Headers */,
+				DABDE1F1135F11A4CB4FA35F /* POPAnimationTracerInternal.h in Headers */,
+				03BC26D44AA82BC402944A7C /* POPAnimator.h in Headers */,
+				F3C0183E669DFA31508FBF4A /* POPAnimatorPrivate.h in Headers */,
+				D3F97DB35A1BFCE3AED3EFD9 /* POPBasicAnimation.h in Headers */,
+				C00C9533B3F861885C142EA1 /* POPBasicAnimationInternal.h in Headers */,
+				EF964621AAA29774AFDD45DD /* POPCGUtils.h in Headers */,
+				11F902D89C45D7C1FB2C2289 /* POPCustomAnimation.h in Headers */,
+				C619CA2AF3399475516648CC /* POPDecayAnimation.h in Headers */,
+				04997342D5E6B63F04CE059E /* POPDecayAnimationInternal.h in Headers */,
+				74EF3CF6CAF6D041C1A47F64 /* POPDefines.h in Headers */,
+				D2C46FAD38A2343B0BE6E885 /* POPGeometry.h in Headers */,
+				D9AE2B77C4C53BE499EEAFF4 /* POPLayerExtras.h in Headers */,
+				B8232FA3A434A1DCEE7B73A3 /* POPMath.h in Headers */,
+				049C1F9C6E461E83C878DCAB /* POPPropertyAnimation.h in Headers */,
+				F409E0CA69C720D46AA7DBD4 /* POPPropertyAnimationInternal.h in Headers */,
+				D6C939EB9C6C18A557110314 /* POPSpringAnimation.h in Headers */,
+				6248165426BC79A9C4A199C6 /* POPSpringAnimationInternal.h in Headers */,
+				A3BB4E091DF811787B846550 /* POPSpringSolver.h in Headers */,
+				AC8661C112DDFAF1576DDBC0 /* POPVector.h in Headers */,
+				56AEE98D4404726A2A651288 /* TransformationMatrix.h in Headers */,
+				21E0AA8686CDE8B20069DDF3 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54683936429FA5490151AD66 /* Pods-pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D511B06FE4B60F93E099838D /* Build configuration list for PBXNativeTarget "Pods-pop" */;
+			buildPhases = (
+				93E1906A46AEC0F1E6276E59 /* Sources */,
+				94D721663DA9081D781C7FF5 /* Frameworks */,
+				6646C1839F242D69710A49F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pop";
+			productName = "Pods-pop";
+			productReference = CAC0CD9D513D304B9BC10D33 /* libPods-pop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD4BE22347A4C0C3FBC131C0 /* Pods-JSPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D69B96C8CB902E6295F4559 /* Build configuration list for PBXNativeTarget "Pods-JSPatch" */;
+			buildPhases = (
+				E0B8A35634125833E2BF7BB5 /* Sources */,
+				F330D782588CC2A6E7276D5B /* Frameworks */,
+				04F11DCABC3083E78F738D8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSPatch";
+			productName = "Pods-JSPatch";
+			productReference = 44155A974BD010F132F3F292 /* libPods-JSPatch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA0F1ADB5CE54D37CB3F3F9E /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97CAD2AB5B8EACAD37D48742 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				08A9217AB33B25F55630B4C9 /* Sources */,
+				DD53AEF32778C9AE311199A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D66CA33E1787BB8B052E264 /* PBXTargetDependency */,
+				C83D8B904D1B4D6809C013CD /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 3E5255E2DD897DD85F0232CD /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D2BE99C1E6E33AA86DCFAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 07E2496C04C7A4CC9F16A16E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D676ADDA9856F09FF39B0FDC;
+			productRefGroup = FFF8E19ED0762F080E30E531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0F1ADB5CE54D37CB3F3F9E /* Pods */,
+				BD4BE22347A4C0C3FBC131C0 /* Pods-JSPatch */,
+				54683936429FA5490151AD66 /* Pods-pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08A9217AB33B25F55630B4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707C24553A164D7E69FA0EA4 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E1906A46AEC0F1E6276E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D78F4C39A86C5EFD02B4CD /* POPAnimatableProperty.mm in Sources */,
+				32638EAA1656FE83CF298196 /* POPAnimation.mm in Sources */,
+				F8D8692B6B8409B42EB360EA /* POPAnimationEvent.mm in Sources */,
+				9894B2FFA1E0D505D91F4C51 /* POPAnimationExtras.mm in Sources */,
+				F0B3DE1A14C462E793FC6FD1 /* POPAnimationRuntime.mm in Sources */,
+				320A9A5D159E3C485BEA5ABD /* POPAnimationTracer.mm in Sources */,
+				01BFE35DF000228C62954B34 /* POPAnimator.mm in Sources */,
+				DD54E16E2D67E7E78A11B90F /* POPBasicAnimation.mm in Sources */,
+				E837F511FB31DFAE26779492 /* POPCGUtils.mm in Sources */,
+				7F5D6051627828B6DEF9E245 /* POPCustomAnimation.mm in Sources */,
+				C99B18675FA40D0D8C3D7BCA /* POPDecayAnimation.mm in Sources */,
+				3790101BB0636D82CAD8D97A /* POPGeometry.mm in Sources */,
+				81EF0A6A142EF8D3BD79AC05 /* POPLayerExtras.mm in Sources */,
+				EA9ECA9EE71E5BA88405F6BA /* POPMath.mm in Sources */,
+				5B93BF116390638C6B1B1EBD /* POPPropertyAnimation.mm in Sources */,
+				B936C59DCB9E1A781DAB596D /* POPSpringAnimation.mm in Sources */,
+				479E0CF007F754F7E93C79AD /* POPVector.mm in Sources */,
+				FA3F87A0420166D98D19B49C /* Pods-pop-dummy.m in Sources */,
+				186CBEA1C687558F7B6F7C95 /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0B8A35634125833E2BF7BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBFE65B8FCB093E0F384A06B /* JPEngine.m in Sources */,
+				ABAD48D14D2F28F1E562DBF8 /* Pods-JSPatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D66CA33E1787BB8B052E264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSPatch";
+			target = BD4BE22347A4C0C3FBC131C0 /* Pods-JSPatch */;
+			targetProxy = 77BC214EACEEB2ECE8BFF7AC /* PBXContainerItemProxy */;
+		};
+		C83D8B904D1B4D6809C013CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-pop";
+			target = 54683936429FA5490151AD66 /* Pods-pop */;
+			targetProxy = A4B40543791361C1082CF21A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBFE75B260E61BBDA3F0B96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF724D1F8F2E06C8664A723B /* Pods-pop-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-pop/Pods-pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2AB7731E2076F88545F61CA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50F650AD573570C1AFD62CDE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4843C314B4AF4ED084CCDA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C44AF4B4421D24D82E5924 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		92C82B02520958B22DCD0316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9868F23C0A45114C4FB2543F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D385F6997A927D42C3F895C /* Pods-JSPatch-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSPatch/Pods-JSPatch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C558A9991649131726EF19F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D385F6997A927D42C3F895C /* Pods-JSPatch-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JSPatch/Pods-JSPatch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F7CD9981582E7E666473F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF724D1F8F2E06C8664A723B /* Pods-pop-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-pop/Pods-pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FDB09156FEAB89A4934097D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E2496C04C7A4CC9F16A16E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB09156FEAB89A4934097D0 /* Debug */,
+				92C82B02520958B22DCD0316 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D69B96C8CB902E6295F4559 /* Build configuration list for PBXNativeTarget "Pods-JSPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9868F23C0A45114C4FB2543F /* Debug */,
+				9C558A9991649131726EF19F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97CAD2AB5B8EACAD37D48742 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB7731E2076F88545F61CA6 /* Debug */,
+				4843C314B4AF4ED084CCDA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D511B06FE4B60F93E099838D /* Build configuration list for PBXNativeTarget "Pods-pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBFE75B260E61BBDA3F0B96 /* Debug */,
+				F7CD9981582E7E666473F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D2BE99C1E6E33AA86DCFAD /* Project object */;
+}
